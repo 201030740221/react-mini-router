@@ -1,0 +1,37 @@
+nav {
+    padding: 10px 15px;
+}
+
+nav a {
+    padding: 0 10px;
+}
+
+nav a:first-child {
+    border-right: 1px solid #cccccc;
+}
+
+#app {
+    margin-top: 25px;
+}
+
+.lists, .todolist {
+    max-width: 400px;
+}
+
+.lists .list-group-item {
+    padding: 0;
+}
+
+.lists .list-group-item a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.create-list-input {
+    margin-right: 15px;
+}
+
+.todolist footer {
+    margin-top: 30px;
+}

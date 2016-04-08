@@ -1,0 +1,31 @@
+{
+  "name": "react-mini-router-example",
+  "version": "0.0.1",
+  "description": "A sample React app that uses the mini-router for client and server rendering.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.5.2",
+    "express": "^4.7.2",
+    "fluxxor": "^1.5.0",
+    "lodash": "^3.0.0",
+    "plates": "^0.4.9",
+    "react": "^0.12.0",
+    "superagent": "^0.18.2"
+  },
+  "devDependencies": {
+    "del": "^1.1.1",
+    "gulp": "^3.8.10",
+    "gulp-changed": "^1.1.0",
+    "gulp-nodemon": "^1.0.5",
+    "gulp-react": "^2.0.0",
+    "vinyl-source-stream": "^1.0.0",
+    "webpack": "^1.8.11",
+    "webpack-dev-middleware": "^1.0.11"
+  }
+}
